@@ -4,9 +4,10 @@
     padding: 0;
 }
 body{
-    font-size: 1em;
+    font-size: 16px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    background-color: black;
 }
 
 /*-----CABEÇALHO----*/
@@ -14,12 +15,12 @@ body{
 #cabecalho{
     background: rgb(206, 0, 0);
     text-align: center;
-    padding: 17px;
+    padding: 13px;
 
 }
 
 #area-navegacao{
-    padding-top: 20px;
+    padding-top: 16px;
     padding-bottom: 5px;
 }
 
@@ -36,7 +37,7 @@ a{
 }
 
 a:link, a:visited {
-    color: rgba(255, 255, 255, 0.007);
+    color: rgb(255, 255, 255);
 }
 
 #cabecalho a:link, #cabecalho  a:visited {
@@ -53,3 +54,4 @@ a:hover{
     margin: auto;
     padding: 20px;
 }
+

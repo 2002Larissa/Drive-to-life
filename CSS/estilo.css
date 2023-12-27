@@ -1,4 +1,43 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +46,10 @@ body{
     font-size: 16px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: black;
 }
 
-/*-----CABEÇALHO----*/
+-----CABEÇALHO----
 
 #cabecalho{
     background: rgb(231, 170, 0);
@@ -24,7 +63,7 @@ body{
     padding-bottom: 5px;
 }
 
-/*FORMATANDO O MENU*/
+FORMATANDO O MENU
 
 h1{
     font-size: 2.7em;
@@ -32,15 +71,12 @@ h1{
 
 a{
     text-decoration: none;
-    color: rgb(231, 170, 0);
+    color: white;
+    font-size: 1.1em;
 }
 
 a:link, a:visited {
-    color: rgba(0, 0, 0, 0.788);
-}
-
-a:hover{
-    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 
 #cabecalho a:link, #cabecalho  a:visited {
@@ -48,9 +84,8 @@ a:hover{
     padding: 8px 12px;
 }
 
-#area-cabecalho a:hover{
-    color: #000000;
-    background: white;
+a:hover{
+    text-decoration: underline;
 }
 
 #area-principal{
@@ -58,4 +93,4 @@ a:hover{
     margin: auto;
     padding: 20px;
 }
-
+*/

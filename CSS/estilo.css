@@ -1,4 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:  #f8f9fa;
+    font-family: 'Helvetica', Courier, monospace;
+}
 
+#cabecalho{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#area-navegacao{
+    padding-top: 15px;
+    
+    text-align: center;
+    text-decoration: none;
+}
 
 
 

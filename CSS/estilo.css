@@ -1,17 +1,96 @@
 *{
     margin: 0;
     padding: 0;
-    background:  #f8f9fa;
     font-family: 'Helvetica', Courier, monospace;
 }
 
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    padding: 25px;
+    background: #ff5100;
+    margin: auto;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 0;
+    background-image: url(./Imagens/BandeirasCruzadas.png) no-repeat;
+}
 
+nav a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: #fff;
+}
 
+a:hover{
+    color: #000000;
+    cursor: pointer;
+}
 
+h1{
+    padding-right: 480px;
+    font-size: 200%;
+}
 
+#img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
 
+#area-principal{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #e6e6e6;
+}
 
+#conteudo{
+    padding: 5px;
+    align-items: right;
+}
 
+#area-postagens{
+    width: 810px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px rgba(255, 196, 32, 0.3);
+}
+
+#area-lateral{
+    width: 270px;
+    float: right;
+    margin-top: -20px;
+    background-color: #fff;
+}
+
+.postagem{
+    padding: 15px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color: #c5bebe;
+}
+
+#rodape{
+    width: 1113px;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px;
+    background: #CCC;
+}
 
 
 

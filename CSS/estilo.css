@@ -1,6 +1,95 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.barra-cabecalho{
+    background: black;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.8em;
+    margin-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**{
+    margin: 0;
+    padding: 0;
     font-family: 'Helvetica', Courier, monospace;
 }
 
@@ -15,7 +104,7 @@ body{
     position:relative;
     padding: 25px;
     background: #181818;
-    /*background: #ff5100;*/
+    /*background: #ff5100;
     margin: auto;
     color: #fff;
     z-index: 1;
@@ -30,7 +119,7 @@ nav a{
 }
 
 a:hover{
-    /*color: #000000;*/
+    /*color: #000000;
     color: #ff5100;
     cursor: pointer;
 }
@@ -78,7 +167,7 @@ h1{
 
 .postagem{
     padding: 15px;
-    /*COLOCAR UM MARGIN-BOTTOM AQUI DEPOIS!!!!*/
+    /*COLOCAR UM MARGIN-BOTTOM AQUI DEPOIS!!!!
     background: #fff;
 }
 
@@ -102,16 +191,65 @@ h1{
 }
 
 
+/*AREA DO CARROSSEL
+
+.slide-carrossel{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 1100px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slide-carrossel-slider{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slide-carrossel-slider input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 1100px;
+}
+
+.navegacao-manual{
+    position: absolute;
+    width: 1100px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid red;
+    padding: 5px;
+    cursor: pointer;
+}*/
 
 
 
-/*AREA DO CARROSSEL*/
 
 
-.carrossel{
+
+
+
+
+
+/*
+.carrossel-lateral{
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
-    height: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: #ff5e00;
 }
 
 .container{
@@ -123,7 +261,7 @@ h1{
 #imagem{
     object-fit: cover;
     height: 500px;
-}
+}*/
 
 
 

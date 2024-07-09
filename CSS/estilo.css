@@ -4,12 +4,27 @@
     font-family:'Arial Narrow Bold', sans-serif;
 }
 
-.barra-cabecalho{
-    background: black;
-    color: #fff;
-    padding: 25px;
+/*BARRA DE NAVEGAÇÃO*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #1e253b;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    z-index: 100;
+}
+
+.nav-bar a{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 4rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 h1{
